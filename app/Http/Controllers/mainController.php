@@ -19,7 +19,7 @@ class mainController extends Controller
         ]);
 
         todo_app::create($validated_task);
-        return redirect('/home');
+        return redirect('/');
     }
 
     public function delete_it($id){
